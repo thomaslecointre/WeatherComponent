@@ -7,7 +7,7 @@ package weather;
 
 /**
  *
- * @author thoma
+ * @author Thomas Lecointre
  */
 public interface RefreshListener {
 

@@ -12,15 +12,16 @@ package weather;
 public class Main {
 
     public static void main(String[] args) {
-       WeatherComponent component = new WeatherComponent();
-       component.addRefreshListener(new RefreshListener() {
+       WeatherComponent wc = new WeatherComponent();
+       wc.addRefreshListener(new RefreshListener() {
            @Override
            public void refresh(RefreshEvent e) {
-               System.out.println("Getting weather data for Mulhouse...");
+               wc.doRefresh();
+               System.out.println(wc);
            }
            
        });
-       component.start();
+       wc.start();
     }
     
 }

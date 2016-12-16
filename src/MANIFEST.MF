@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Class-Path:
-Created-By: 1.8.0_111
-Main-Class: weather.Main
-
-Name: weather.WeatherComponent.class
-Java-Bean: True

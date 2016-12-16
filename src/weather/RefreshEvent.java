@@ -11,7 +11,7 @@ import java.util.EventObject;
  *
  * @author Thomas Lecointre
  */
-class RefreshEvent extends EventObject {
+public class RefreshEvent extends EventObject {
 
     public RefreshEvent(WeatherComponent component) {
         super(component);
